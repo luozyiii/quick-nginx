@@ -1,6 +1,9 @@
+const path = require("path");
+
 const port = 3001; // 端口
-const projectPath = "/Users/edy/Yaowu/g-united-web/dist"; // 指定项目地址
-// const projectPath = path.join(__dirname, '../dist');
+
+// 当前项目地址
+const projectPath = path.join(__dirname, "./dist");
 const entryHtml = "index.html"; // 入口html
 
 // 代理
